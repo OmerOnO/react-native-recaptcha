@@ -133,7 +133,6 @@ export default class ReCaptcha extends Component {
                     baseUrl: url
                 }}
                 onShouldStartLoadWithRequest={this.onShouldStartLoadWithRequest}
-                onNavigationStateChange = {this.onNavigationStateChange}
                 />
         );
     }
